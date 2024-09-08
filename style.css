@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary-color: #2260BF;
+    --secondary-color: #FF6B6B;
+    --primary-font: "Mukta", sans-serif;
+    --secondary-font: "Khand", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+header .container {
+    line-height: 20px;
+    margin-block: 15px !important;
+
+}
+
+header .container .h-header a img {
+    max-width: 268px;
+    display: block;
+
+}
+
+.h-header-ad {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.h-header-ad a img {
+    width: 100%;
+}
+
+header .container time {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    opacity: 0.48;
+}
+
+nav {
+    background-color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, .14) 0 0 18px;
+
+}
+
+nav .nav-n {
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 9999999;
+    padding-block: 5px;
+    padding-inline: 0;
+
+}
+
+nav .nav-n ul li {
+    display: inline-block;
+}
+
+nav .nav-n ul li a:first-child {
+    padding: 20 !important;
+}
+
+nav .nav-n ul li a {
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    display: block;
+    font-size: 21px;
+    padding: 2px 15px 1px !important;
+    transition: 0.3s;
+}
+
+nav .nav-n ul li:hover a {
+    color: #70c9ff !important;
+}
+
+nav .nav-n ul li:active a {
+    color: #70c9ff !important;
+}
+
+
+.nav-right .domin-links .red-bg {
+    background-color: var(--secondary-color) !important;
+}
+
+.nav-right a {
+    padding: 10px 15px !important;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, .08);
+    font-family: var(--secondary-font);
+    margin-left: 10px !important;
+    transition: 0.5s;
+
+}
+
+.nav-right .domin-links a i {
+    font-size: 14px;
+}
+
+.nav-right .domin-links a:first-child {
+    margin-left: 0 !important;
+}
+
+.lan-en:hover {
+    background-color: red !important;
+}
+
+.nav-right a i {
+    font-size: 25px;
+}
+
+.nav-right .bg-trans {
+    background-color: transparent !important;
+    padding: 10px !important;
+}
+
+.subnav {
+    display: flex;
+}
+
+.subnav .left-spots{
+    flex: 0 0 50%;
+}
+.subnav .left-spots .subnav-c img{
+    height: 110px;
+    border-radius: 4px;
+    margin-bottom: 15px !important;
+
+}
+
+.subnav .left-spots .subnav-c div{
+    display: inline;
+    background-color: #e11b22;
+    padding: 3px 8px 1px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+}

@@ -18,7 +18,7 @@
 <body>
 
     <header>
-        <div class="container d-flex align-items-center justify-content-between">
+        <div class="header-h container d-flex align-items-center justify-content-between">
             <div class="h-header">
                 <a href="">
                     <img src="images/main-logo-new.svg" alt="">
@@ -33,58 +33,289 @@
 
 
         </div>
-        <nav>
-            <div class="container nav-n d-flex align-items-center justify-content-between">
-                <ul>
-                    <li><a href="#">होमपेज</a></li>
-                    <li><a href="#">समाचार</a></li>
-                    <li><a href="#">बिजनेस</a></li>
-                    <li>
-                        <a href="#">जीवनशैली</a>
-                        <div class="subnav">
-                            <div class="left-spots">
-                                <div class="subnav-c">
-                                    <img src="images/subnav-1.jpg" alt="">
+    </header>
 
-                                    <div class="ok-news-tags red"> जीवनशैली प्रमुख </div>
+    <nav>
+        <div class="container nav-n d-flex align-items-center justify-content-between">
+            <ul>
+                <li><a href="#">होमपेज</a></li>
+                <li><a href="#">समाचार</a></li>
+                <li><a href="#">बिजनेस</a></li>
+                <li>
+                    <a href="#">जीवनशैली</a>
+                    <div class="subnav">
+                        <div class="d-flex gap-4">
+                            <div class="left-spots d-flex gap-3">
+                                <div class="subnav-c">
+                                    <a href="">
+                                        <img src="images/subnav-1.jpg" alt="">
+                                        <p> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">‘प्रकाश’ले ढाकेको अँध्यारो</h2>
+                                    </a>
+                                </div>
+                                <div class="subnav-c">
+                                    <a href="">
+
+                                        <img src="images/subnav-2.jpg" alt="">
+                                        <p class="ok-news-tags red"> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">बुवाको मुख हेर्ने दिन, के छ वैदिक महत्व ?</h2>
+                                    </a>
+
+                                </div>
+                                <div class="subnav-c">
+                                    <a href="">
+
+                                        <img src="images/subnav-3.png" alt="">
+                                        <p class="ok-news-tags red"> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">चार किसिमका अभिभावक, तपाईं कुन श्रेणीको ?</h2>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="right-spots d-flex">
+                                <div>
+                                    <div class="cat-label d-flex">
+                                        फिटनेस
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">मोटोपनबाट कसरी छुट्कारा पाउने ?</a></li>
+                                        <li><a href=""> प्राणायाम, जसले ‘हार्ट ब्लकेज’ हुनबाट जोगाउँछ</a></li>
+                                        <li><a href="#">व्यायाम गरेपछि शरीरको बोसो कहाँ जान्छ ?</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="cat-label d-flex">
+                                        कभर स्टोरी
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">कर्णालीमा ‘लो भोल्टेज’: पटक-पटक ऊर्जामन्त्री पायो, उज्यालो
+                                                पाएन</a></li>
+                                        <li><a href="">अबोध प्राणीको तड्पाई-तड्पाई हत्या, के हुन्छ सजाय ?</a></li>
+                                        <li><a href="#">ठेकेदारको इशारामा प्रधानमन्त्री कार्यालय: जस्तो चाह्यो,
+                                                उस्तै कानुन</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </li>
-                    <li><a href="#">मनोरञ्जन</a></li>
-                    <li><a href="#">विचार</a></li>
-                    <li><a href="#">खेलकुद</a></li>
-                    <li><a href="#">अन्य</a></li>
-                </ul>
-
-                <div class="nav-right d-flex align-items-center">
-                    <div class="domin-links d-flex align-items-center">
-                        <a href="#" class="red-bg d-flex align-items-center gap-2">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <span>पात्रो</span>
-                        </a>
-                        <a href="#" class="d-flex align-items-center gap-2">
-                            <i class="fa-solid fa-chart-simple"></i>
-                            <span>सेयर मार्केट्स</span>
-                        </a>
-                        <a href="#" class="d-flex align-items-center gap-2">
-                            <i class="fa-solid fa-heart-pulse"></i>
-                            <span>स्वास्थ्य</span>
-                        </a>
                     </div>
-                    <a href="#" target="_blank" class="lan-en">EN</a>
-                    <a href="" class="bg-trans"><i class="fa-solid fa-arrow-trend-up"></i></a>
-                    <a href="" class="bg-trans"><i class="fa-regular fa-circle-user"></i></a>
-                    <a href="" class="bg-trans"><i class="fa-solid fa-bars"></i></a>
+                </li>
+                <li><a href="#">मनोरञ्जन</a></li>
+                <li><a href="#">विचार</a></li>
+                <li><a href="#">खेलकुद</a></li>
+                <li>
+                    <a href="#">अन्य</a>
+                    <div class="subnav all-cats">
+                        <div class="d-flex gap-4">
+                            <div class="left-spots d-flex gap-3">
+                                <div class="subnav-c">
+                                    <a href="">
+                                        <img src="images/subnav-1.jpg" alt="">
+                                        <p> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">पाकिस्तानी दूतावासले मनायो शहीद दिवस</h2>
+                                    </a>
+                                </div>
+                                <div class="subnav-c">
+                                    <a href="">
 
+                                        <img src="images/subnav-2.jpg" alt="">
+                                        <p class="ok-news-tags red"> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">भेनेजुएलाका विपक्षी नेता गोन्जालेजले देश छाडे</h2>
+                                    </a>
+
+                                </div>
+                                <div class="subnav-c">
+                                    <a href="">
+
+                                        <img src="images/subnav-3.png" alt="">
+                                        <p class="ok-news-tags red"> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">को हुन् घोस्ट ह्याकर ? जसले मृत मानिसका अकाउन्टलाई
+                                            निसाना बनाइरहेका छन्</h2>
+                                    </a>
+
+                                </div>
+                                <div class="subnav-c">
+                                    <a href="">
+                                        <img src="images/subnav-1.jpg" alt="">
+                                        <p> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">छालबाटोको रुटम्याप</h2>
+                                    </a>
+                                </div>
+                                <div class="subnav-c">
+                                    <a href="">
+
+                                        <img src="images/subnav-2.jpg" alt="">
+                                        <p class="ok-news-tags red"> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">‘भारतले ईपीजी प्रतिवेदन नबुझ्नु आश्चर्यजनक नै भएको
+                                            छ’</h2>
+                                    </a>
+
+                                </div>
+                                <div class="subnav-c">
+                                    <a href="">
+
+                                        <img src="images/subnav-3.png" alt="">
+                                        <p class="ok-news-tags red"> जीवनशैली प्रमुख </p>
+                                        <h2 class="ok-news-title-txt">अष्टिम्की चित्रकला र राधा-कृष्ण बनेका थारू
+                                            युवायुवती (तस्वीरहरू)</h2>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="nav-right d-flex align-items-center">
+                <div class="domin-links d-flex align-items-center">
+                    <a href="#" class="red-bg d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>पात्रो</span>
+                    </a>
+                    <a href="#" class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span>सेयर मार्केट्स</span>
+                    </a>
+                    <a href="#" class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <span>स्वास्थ्य</span>
+                    </a>
                 </div>
+                <a href="#" target="_blank" class="lan-en">EN</a>
+                <a href="" class="bg-trans"><i class="fa-solid fa-arrow-trend-up"></i></a>
+                <a href="" class="bg-trans"><i class="fa-regular fa-circle-user"></i></a>
+                <a href="" class="bg-trans"><i class="fa-solid fa-bars"></i></a>
 
             </div>
-        </nav>
-        <div class="header-f">
 
         </div>
-    </header>
+    </nav>
+    <div class="header-f py-2">
+        <div class="container d-flex justify-content-between">
+            <div class="trending-news-user d-flex align-items-center">
+                <a
+                    href="https://www.onlinekhabar.com/trend/%e0%a4%b8%e0%a5%81%e0%a4%a8%e0%a4%bf%e0%a4%b2-%e0%a4%aa%e0%a5%8b%e0%a4%96%e0%a4%b0%e0%a5%87%e0%a4%b2">
+                    <div class="user-profile">
+                        <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/09/Sunil-Pokharel-Hollywood-270x170.jpg"
+                            alt="सुनिल पोखरेल">
+                    </div> सुनिल पोखरेल
+                </a>
+
+                <a href="https://www.onlinekhabar.com/trend/crime">
+                    <div class="user-profile">
+                        <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/09/Dhan-Bahadur-kc-270x170.jpg"
+                            alt="अपराध">
+                    </div> अपराध
+                </a>
+
+                <a href="https://www.onlinekhabar.com/trend/%e0%a4%ac%e0%a4%be%e0%a4%b2%e0%a5%87%e0%a4%a8">
+                    <div class="user-profile">
+                        <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/05/balen-saha-12-270x170.jpg"
+                            alt="बालेन">
+                    </div> बालेन
+                </a>
+
+                <a
+                    href="https://www.onlinekhabar.com/trend/%e0%a4%ae%e0%a4%b2%e0%a5%87%e0%a4%b8%e0%a4%bf%e0%a4%af%e0%a4%be-%e0%a4%8f%e0%a4%af%e0%a4%b0%e0%a4%aa%e0%a5%8b%e0%a4%b0%e0%a5%8d%e0%a4%9f">
+                    <div class="user-profile">
+                        <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/09/RUP-lal-Chaudhary-malasia-270x170.jpg"
+                            alt="मलेसिया एयरपोर्ट">
+                    </div> मलेसिया एयरपोर्ट
+                </a>
+
+                <a href="https://www.onlinekhabar.com/trend/%e0%a4%98%e0%a5%81%e0%a4%b8">
+                    <div class="user-profile">
+                        <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/09/Shiva-Prasad-Baral-and-Usha-Kiran-Rokaya-768x468.jpg"
+                            alt="घुस">
+                    </div> घुस
+                </a>
+
+                <a href="https://www.onlinekhabar.com/trend/nepal-police">
+                    <div class="user-profile">
+                        <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/07/ktm-district-police-270x170.jpg"
+                            alt="नेपाल प्रहरी">
+                    </div> नेपाल प्रहरी
+                </a>
+
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Keywords">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="N-trending">
+            <div class="container N-banner">
+                <iframe src="https://www.onlinekhabar.com/markets/components/trending" frameborder="0"
+                    style="width: 100%; height: 87px; border: none;"></iframe>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="border-bottom mt-5"></div>
+            <div class="N-main border-bottom">
+                <h2>
+                    <a
+                        href="https://www.onlinekhabar.com/2024/09/1536271/dispute-over-subsistence-allowance-of-resident-doctors-private-medical-colleges-not-to-teach-pg">
+                        आवासीय चिकित्सकको निर्वाह भत्तामा विवाद, निजी मेडिकल कलेजले पीजी नपढाउने </a>
+                </h2>
+                <div class="author-details d-flex gap-4 align-items-center justify-content-center">
+                    <div class="news-author d-flex align-items-center gap-3">
+                        <img src="images/Pushparaj.jpg" alt="">
+                        <span> पुष्पराज चौलागाईं</span>
+                    </div>
+                    <div class="upload-time d-flex align-items-center gap-2">
+                        <i class="fa-regular fa-clock"></i>
+                        <time> २ घण्टा अगाडि</time>
+                    </div>
+                </div>
+            </div>
+            <div class="N-main border-bottom">
+                <h2>
+                    <a
+                        href="https://www.onlinekhabar.com/2024/09/1536271/dispute-over-subsistence-allowance-of-resident-doctors-private-medical-colleges-not-to-teach-pg">
+
+                        बालुवाटारमा एमाले र कांग्रेस शीर्ष नेताको बैठक, सत्तारुढ दलको बैठक बोलाउने तयारी </a>
+                </h2>
+                <div class="author-details d-flex gap-4 align-items-center justify-content-center">
+                    <div class="news-author d-flex align-items-center gap-3">
+                        <img src="images/fevicon.png" alt="">
+                        <span> अनलाइनखबर</span>
+                    </div>
+                    <div class="upload-time d-flex align-items-center gap-2">
+                        <i class="fa-regular fa-clock"></i>
+                        <time> २ घण्टा अगाडि</time>
+                    </div>
+                </div>
+            </div>
+            <div class="N-main border-bottom">
+                <h2>
+                    <a
+                        href="https://www.onlinekhabar.com/2024/09/1536271/dispute-over-subsistence-allowance-of-resident-doctors-private-medical-colleges-not-to-teach-pg">
+                        आफ्नै ल्यापटपबाट अधिकृतको परीक्षा, छानिए हाकिमका आफन्त </a>
+                </h2>
+                <div class="author-details d-flex gap-4 align-items-center justify-content-center">
+                    <div class="news-author d-flex align-items-center gap-3">
+                        <img src="images/Rabindra-Ghimire-150x150.jpg" alt="">
+                        <span>रवीन्द्र घिमिरे </span>
+                    </div>
+                    <div class="upload-time d-flex align-items-center gap-2">
+                        <i class="fa-regular fa-clock"></i>
+                        <time> २ घण्टा अगाडि</time>
+                    </div>
+                    <div class="upload-time">
+                        <div class="comment  d-flex align-items-center gap-2">
+                            <i class="fa-regular fa-message"></i>
+                            <span>2</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
